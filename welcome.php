@@ -31,7 +31,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
 <div class="continer my-4">
 <div class="alert alert-success" role="alert">
   <h4 class="alert-heading">Welcome - <?php echo $_SESSION['username'];?></h4>
-  <p> Welcome to iSecure you are logged in as <?php echo $_SESSION['username']?>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <p> Welcome to iSecure you are logged in as <?php echo $_SESSION['username']?>You have successfully been logged into the website.</p>
   <hr>
   <p class="mb-0">Whenever you need to, logout <a href="/loginsys/logout.php">using this link</a></p>
 </div>
